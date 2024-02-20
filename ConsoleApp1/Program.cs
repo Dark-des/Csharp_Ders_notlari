@@ -35,7 +35,7 @@ namespace ConsoleApp1
 }
 
 
-//namespace Lesson
+//namespace ConsoleApp1
 //{
 //  internal class Program
  // {
