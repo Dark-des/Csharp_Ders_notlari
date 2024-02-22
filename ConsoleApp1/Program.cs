@@ -6,7 +6,7 @@ namespace ConsoleApp1
   {
      static void Main(string[] args)
   {
-            // tür dönüşümleri //  
+            // tür dönüşümleri 
             int a = 0;   
             int b = new int();
             string c = a.ToString() + b.ToString();
@@ -59,3 +59,4 @@ namespace ConsoleApp1
 //    }
  // }
 // }
+              // bilinçsiz tür dönüşümü 
