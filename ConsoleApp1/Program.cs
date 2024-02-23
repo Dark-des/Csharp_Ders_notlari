@@ -92,6 +92,46 @@ namespace ConsoleApp1
             //Console.WriteLine(i);
             //Console.WriteLine(j);
             //Console.ReadLine(); 
+          //int i = 15;
+//object o = i;
+//short j = (short)o;
+//Console.WriteLine(i);
+//Console.WriteLine(j);
+//Console.ReadLine();
+
+//int i = 15;
+//object o = i;
+//int j =(int)o;
+//Console.WriteLine(i);
+//Console.WriteLine(j);
+//Console.ReadLine();
+
+
+// toplama yapan C#  kodu 
+
+
+//string s1, s2, s3;
+//int i1, i2, i3;
+
+//Console.WriteLine("1.sayıyı girin ");
+//s1 = Console.ReadLine();
+
+//Console.WriteLine("2.sayıyı girin");
+//s2 = Console.ReadLine();
+
+//Console.WriteLine("3.sayıyı girin");
+//s3 = Console.ReadLine();
+
+//i1 = Convert.ToInt32(s1);
+//i2 = Convert.ToInt32(s2);
+//i3 = Convert.ToInt32(s3);
+
+//i3 = i1 + i2 + i3;
+
+//Console.WriteLine("toplam: " + i3);
+//Console.ReadLine();
+
+
         }
     }
 }
