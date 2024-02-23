@@ -56,7 +56,44 @@ namespace ConsoleApp1
      // Console.WriteLine(x.GetType());
       
     // Console.Readline();
-//    }
- // }
-// }
-              // bilinçsiz tür dönüşümü 
+            //int i = 256;
+            //byte b;
+            ////checked
+            //{
+            //    b = (byte)i;
+            //}
+            //Console.WriteLine(b);
+            //Console.ReadLine();
+
+            //byte i = 254;
+            //int j = 500;
+            //byte b, c;
+            //checked
+            //{
+            //    b = (byte)i;
+            //    Console.WriteLine(b);
+            //}
+            //unchecked
+            //{
+            //    c = (byte)j;
+            //    Console.WriteLine(c);
+            //}
+            //Console.ReadLine(); 
+
+            //int a = 500;
+            //object b = (object)a;
+
+            //int a = 500;
+            //object b = a;
+
+            //int i = 15;
+            //object o = i; // boxing
+            //int j = (short)o; // unboxing
+            //Console.WriteLine(i);
+            //Console.WriteLine(j);
+            //Console.ReadLine(); 
+        }
+    }
+}
+    
+     
