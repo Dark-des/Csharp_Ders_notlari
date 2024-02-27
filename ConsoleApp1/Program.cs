@@ -29,18 +29,7 @@ namespace ConsoleApp1
 
             Console.ReadLine();
            
-            
-        }
-    }
-}
 
-
-//namespace ConsoleApp1
-//{
-//  internal class Program
- // {
- //   static void Main(string[]args)
-//    {
     //  object x;
      // x=10;
      // Console.WriteLine(x.GetType());
@@ -131,6 +120,47 @@ namespace ConsoleApp1
 //Console.WriteLine("toplam: " + i3);
 //Console.ReadLine();
 
+
+            //OPERATÖRLER( derste yaptıklarımız)
+            //int i = 5 * 4 / 6;
+            //Console.WriteLine(i);
+
+            //işlem önceliğine önem verir.
+
+            //örnek:
+
+            //i = 5 * (4 / 6);
+            //Console.WriteLine(i);
+            //Console.ReadLine();
+
+            //int i = 5 + -4;
+            //Console.WriteLine(i);
+            //Console.ReadLine();
+
+            // operatör önceliği  
+
+            //int i = 8 / 3;
+            //float j = 8 / 3;
+            //float k = 8f / 3f;
+            //Console.WriteLine("{0} \n {1} \n {2} \n",i,j,k);
+            //Console.ReadLine();
+
+            //arttırma azaltma
+
+            //int a = 10;
+            //Console.WriteLine(a++);
+            ////a = 10;
+            //Console.WriteLine(++a);
+            //Console.ReadLine();
+
+            //int a = 10;
+            //int b = a++;
+            //Console.WriteLine("a++ atamasında b:" +b);
+            //Console.WriteLine("a++ atamasında:"+ a + "\n");
+            //b = ++a;
+            //Console.WriteLine("++a atamasında b:" + b);
+            //Console.WriteLine("++a atamasında a:" + a);
+            //Console.ReadLine();
 
         }
     }
