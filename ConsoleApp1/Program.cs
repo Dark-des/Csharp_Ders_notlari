@@ -161,7 +161,27 @@ namespace ConsoleApp1
             //Console.WriteLine("++a atamasında b:" + b);
             //Console.WriteLine("++a atamasında a:" + a);
             //Console.ReadLine();
+            
+            // karşılaştırma operatörleri
 
+            //bool a = 30 == 45;
+            //bool b = 30 > 45;
+            //bool c = 30 < 45;
+            //bool d = 30 != 45;
+            //bool e = 30 <= 45;
+            //bool f = 30 >= 45;
+            //Console.WriteLine("{0} \n {1} \n {2} \n {3} \n {4} \n {5}\n ",a,b,c,d,e,f);
+            //Console.ReadLine();
+
+            //   AS ve İS  operatörü
+
+            //object o = 25;
+            //string s = o as string;
+            //int i = 17;
+            //bool b = i is int;
+            //bool c = i is double ;
+            //Console.WriteLine("{0} \n {1} \n {2} \n {3} \n {4} \n  ",o,s,i,b,c);
+            //Console.ReadLine();
         }
     }
 }
