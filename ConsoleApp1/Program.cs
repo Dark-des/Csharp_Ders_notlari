@@ -221,15 +221,14 @@ namespace ConsoleApp1
  // "="  operatörü bir değişkene herhangi bir değeri atamak için kullanılır.
  //int a = 15;
  //int b = 20;
- //int c = 30;
+//int c = 30;
  //int d = 50;
- //a *= b;
- //c = a++;
- //d = c += 1;
- //d = c -= d;
- //Console.WriteLine(d);
- //Console.ReadLine();  
-
+//a *= b;
+//c = a++;
+//d = ++c;
+//d -= c;
+//Console.WriteLine(d);
+//Console.ReadLine();
 
 
 
