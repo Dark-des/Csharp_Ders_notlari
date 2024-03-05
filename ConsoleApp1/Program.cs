@@ -230,6 +230,25 @@ namespace ConsoleApp1
 //Console.WriteLine(d);
 //Console.ReadLine();
 
+         
+            // bool g isimli bir veri tipi tanımlayınız.İçerisine veri tipini kontrol eden operatörü kullanarak f nin int olma durumunu atayınız .
+
+
+            // double f ;
+            // f = (double)c ;
+
+            //bool g = f is int ;
+            // Console.WriteLine(g) ;
+            // Console.WriteLine(f) ;
+            // Console.ReadLine() ;
+
+            // Özel amaçlı operatörler. 
+
+            //string str = "hüdayi emre ";
+            //int sayi = 1; 
+            //str = str +(sayi == 2 ? "" :  "lar  "); // if else gibi çalışır. 
+            //Console.WriteLine(str);
+            //Console.ReadLine();
 
 
 
