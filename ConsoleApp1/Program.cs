@@ -182,6 +182,63 @@ namespace ConsoleApp1
             //bool c = i is double ;
             //Console.WriteLine("{0} \n {1} \n {2} \n {3} \n {4} \n  ",o,s,i,b,c);
             //Console.ReadLine();
+         
+            
+
+ //bitsel operatörler
+ //byte b =   255;
+ //byte c= (byte) ~ b;
+ //Console.WriteLine("{0} \n {1} \n", b, c);
+ //Console.ReadLine();
+
+ // bitsel ve "&&" operatörü
+
+ //byte a = 145;
+ //byte b = 73;
+ //int c = (byte) ( a & b );
+ //Console.WriteLine("{0} \n {1} \n {2} \n" ,a, b, c );
+ //Console.ReadLine();
+
+ // bitsel veya "||" operatörü 
+ //byte a = 145;
+ //byte b = 73;
+ //int c = (byte)(a | b);
+ //Console.WriteLine("{0} \n {1} \n {2} \n", a, b, c);
+ //Console.ReadLine();
+
+ // bitsel özel veya "^"  (xor) operatörü 
+
+ //byte a = 10;
+ //byte b = 99;
+ //byte c = (byte)( b ^ a );
+ //Console.WriteLine("{0} \n {1} \n {2} \n", a, b, c);
+ //Console.WriteLine(c);
+ //Console.ReadLine();
+
+
+ // Atama ve İşlemli Atama Operatörleri 
+
+ // "="  operatörü bir değişkene herhangi bir değeri atamak için kullanılır.
+ //int a = 15;
+ //int b = 20;
+ //int c = 30;
+ //int d = 50;
+ //a *= b;
+ //c = a++;
+ //d = c += 1;
+ //d = c -= d;
+ //Console.WriteLine(d);
+ //Console.ReadLine();  
+
+
+
+
+
+
+
+
+
+         
         }
     }
 }
