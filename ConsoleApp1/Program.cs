@@ -241,22 +241,133 @@ namespace ConsoleApp1
             // Console.WriteLine(g) ;
             // Console.WriteLine(f) ;
             // Console.ReadLine() ;
+     // özel amaçlı operatörler
+//string str = "hüdayi emre ";
+//int sayi = 1;
+//str = str + (sayi == 2 ? "" : "lar  "); /* if else gibi çalışır. */
+//Console.WriteLine(str);
+//Console.ReadLine();
 
-            // Özel amaçlı operatörler. 
+//string str = "hüdayi emre";
+//int sayi = 3;
+//str = str + ((sayi == 1 || sayi == 0) ? "" : "ler");
+//Console.WriteLine(str);
+//sayi = 1;
+//str = "hüdayi" + ((sayi == 1 || (sayi == 0) ? "" : "lar"));
+//Console.WriteLine(str);
+//Console.ReadLine();
 
-            //string str = "hüdayi emre ";
-            //int sayi = 1; 
-            //str = str +(sayi == 2 ? "" :  "lar  "); // if else gibi çalışır. 
-            //Console.WriteLine(str);
+//int a = 15;
+//int b = 20;
+//int c = 30;
+//int d = 50;
+//a *= b;
+//c = a++;
+//d = ++c;
+//d -= c;
+//Console.WriteLine(d);
+//Console.ReadLine();
+
+//double f;
+//f = (double)c;
+
+//bool g = f is int;
+//string s = g ? "f integer" : " f is not integer  ";
+//string a = g ? "f integer" : "f   " + f.GetType().Name + " tipindedir ";
+
+//Console.WriteLine(s);
+//Console.WriteLine(a);
+//Console.ReadLine();
+
+//Console.WriteLine(g);
+//Console.WriteLine(f);
+//Console.ReadLine();
+
+//karar yapıları (if else elseif switch keys)
+//int a = 15, b = 20, c, d;
+//a *= b;
+//Console.WriteLine(a);
+//c = a++;
+//Console.WriteLine(c);
+//d = ++c;
+//Console.WriteLine(d);
+//d -= c;
+//Console.WriteLine(d);
+//double f = (double)c;
+//bool g = f is int;
+//string s;
+////string s = g ? "f integer" : "f verisi  " + f.GetType().Name + " tipindedir ";
+
+//if (g)
+//{
+//    s = "f verisi integer tipinde";
+
+//}
+//else
+//    s = "f verisi" + f.GetType().Name + "tipindedir";
+
+//Console.WriteLine(s);
+//Console.ReadLine();
+// vize ve final notlarını harfe dökme 
+//Console.WriteLine("Vize ve final notunu giriniz:");
+//int vize = Convert.ToInt32(Console.ReadLine());
+//int final = Convert.ToInt32(Console.ReadLine());
+//int ortalama = (vize + final) / 2;
+//string harf;
+
+//if (ortalama >= 90 && ortalama <= 100)
+//{
+//    Console.WriteLine(harf = "AA");
+//}
+//else if (ortalama >= 85 && ortalama <= 89)
+//{
+//    Console.WriteLine(harf = "BA");
+//}
+//else if (ortalama >= 80 && ortalama <= 84)
+//{
+//    Console.WriteLine(harf = "BB");
+//}
+//else if (ortalama >= 75 && ortalama <= 79)
+//{
+//    Console.WriteLine(harf = "CB");
+//}
+//else if (ortalama >= 60 && ortalama <= 74)
+//{
+//    Console.WriteLine(harf = "CC");
+//}
+//else if (ortalama >= 55 && ortalama <= 59)
+//{
+//    Console.WriteLine(harf = "DC");
+//}
+//else if (ortalama >= 50 && ortalama <= 54)
+//{
+//    Console.WriteLine(harf = "DD");
+//}
+//else if (ortalama <= 49)
+//{
+//    Console.WriteLine(harf = "FF");
+//}
+//Console.ReadLine();
+
+
+            ////switch- case ifadesi
+            //int a = 1;
+            //switch (a)
+            //{
+            //   case 1:
+            //        Console.WriteLine("case 1");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("case 2");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("case3");
+            //        break;
+            //    default:
+            //        Console.WriteLine("bu sayı burada yok");
+            //        break;
+            //}
             //Console.ReadLine();
-
-
-
-
-
-
-
-         
         }
     }
 }
