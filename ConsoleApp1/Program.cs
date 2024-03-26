@@ -7,27 +7,27 @@ namespace ConsoleApp1
      static void Main(string[] args)
   {
             // tür dönüşümleri 
-            int a = 0;   
-            int b = new int();
-            string c = a.ToString() + b.ToString();
-            string s = "";
-            string e = "merhaba \n";
-            string t = "feyza";
-            string p = e+ t;
-            System.Console.WriteLine(c + "\n" + p);
+          //  int a = 0;   
+            //int b = new int();
+            //string c = a.ToString() + b.ToString();
+            //string s = "";
+            //string e = "merhaba \n";
+            //string t = "feyza";
+            //string p = e+ t;
+            //System.Console.WriteLine(c + "\n" + p);
 
-            byte veri = 5;
-            byte veri2 = 9;
-            int veri3 = veri+veri2;
+            //byte veri = 5;
+            //byte veri2 = 9;
+            //int veri3 = veri+veri2;
 
-            int veri4 = a;
-            int veri5 = veri4 + 8;
-            int veri6 = a*veri4;
-            bool veri7 = false;
-            s = a.ToString();
-            s = s + "8";
+            //int veri4 = a;
+            //int veri5 = veri4 + 8;
+            //int veri6 = a*veri4;
+            //bool veri7 = false;
+            //s = a.ToString();
+             //s = s + "8";
 
-            Console.ReadLine();
+             //Console.ReadLine();
            
 
     //  object x;
@@ -368,6 +368,235 @@ namespace ConsoleApp1
             //        break;
             //}
             //Console.ReadLine();
+                        /* ÖRNEKLER */
+
+            //girilen 3 basamaklı sayıyı basamaklarına ayıran kodu yazınız
+            //Console.WriteLine("3 basamaklı sayıyı giriniz: ");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+
+            //int yuzler = sayi / 100;
+            //sayi = sayi - (yuzler * 100);
+            //int onlar = sayi / 10;
+            //sayi = sayi - (onlar * 10);
+            //int birler = sayi;
+
+            //Console.WriteLine($"Yüzler: {yuzler}");
+            //Console.WriteLine($"Onlar: {onlar}");
+            //Console.WriteLine($"birler : {birler}");
+            //Console.ReadLine();
+
+            //  kullanıcıdan aldığı tam sayı çift ise  sayının yarısını, tek ise sayının  3 katını ekrana yazdır.
+
+            //Console.WriteLine("sayı girin:     ");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+            //if (sayi % 2 == 0)
+            //{
+            //    Console.WriteLine($"sayının yarısı:  {sayi / 2} ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"sayının üç katı :  {sayi * 3} ");
+            //}
+            //Console.ReadLine();
+
+            // iki iç açısı girilen üçgenin diğer açısını bulan kod 
+
+            //Console.WriteLine("üçgenin iki açısını siz girin diğerini biz bulalım :   ");
+            //int aci = Convert.ToInt32(Console.ReadLine());
+            //int aci2 = Convert.ToInt32(Console.ReadLine());
+            //aci = 180 - (aci + aci2);
+            //Console.WriteLine();
+            //Console.ReadLine();
+
+            // kullanıcıdan ürün fiyatı alınsın 100 TL üzerinde ise 20 TL,100 TL altında ise 30 tl , 300 Tl ise 0 tl kargo ücreti ekleyen kodu yazınız.
+
+            //Console.WriteLine("ürünün fiyatını giriniz:  ");
+            //int ürün = Convert.ToInt32(Console.ReadLine());
+            //{
+            //    Console.WriteLine($"ürünün fiyatı : {ürün + 10 }");
+            //}
+            //else if (ürün < 100)  
+            //{
+            //    Console.WriteLine($"ürünün fiyatı :  {ürün + 30}");
+            //}
+            //else if (ürün >= 300)
+            //{
+            //    Console.WriteLine(" bu kargoyu satıcı karşılıyor o yüzden sizden para almadık  :)  ");
+            //}
+            //else 
+            //{
+            //    Console.WriteLine("geçersiz işlem,lütfen tekrar deneyiniz ");
+            //}
+            //Console.ReadLine();
+
+
+            // ürün fiyatını aldır . 100 - 200 arası % 5  200 - 400 arası % 10 400  ve üzeri % 15 indirim yap.
+
+            //Console.WriteLine("ürünün fiyatını giriniz:  ");
+            //int urun = Convert.ToInt32(Console.ReadLine());
+            //if (urun >= 100 && urun < 200)
+            //{
+            //    Console.WriteLine("ürünün indirimli fiyatı: " + (urun  - (urun * 0.25)));
+            //}
+            //else if (urun >= 200 && urun <= 400)
+            //{
+            //    Console.WriteLine("ürünün indirimli fiyatı: " + (urun - (urun * 0.1)));
+            //}
+            //else if (urun > 400)
+            //{
+            //    Console.WriteLine("ürünün indirimli fiyatı: " + (urun - (urun * 0.15)));
+            //}
+            //else
+            //{
+            //    Console.WriteLine("diğer ürünlerimizde  indirim bulunmamaktadır. ");
+            //}
+            //Console.ReadLine();
+
+            //  girilen mevsimin aylarını ekrana yazdıran switch case kodu  .
+
+            //Console.WriteLine("mevsimin adını yazınız:  ");
+            //string mevsim = Console.ReadLine();
+            //switch (mevsim)
+            //{
+            //    case "yaz":
+            //        Console.WriteLine("TEMMUZ, AĞUSTOS, EYLÜL");
+            //        break;
+
+            //    case "sonbahar":
+            //        Console.WriteLine("EKİM , KASIM, ARALIK");
+            //        break;
+            //    case "kış":
+            //        Console.WriteLine("OCAK, ŞUBAT, MART");
+            //        break ;
+            //    case "ilkbahar":
+            //        Console.WriteLine("NİSAN, MAYIS, HAZİRAN");
+            //        break;
+            //    default:
+            //        Console.WriteLine("tüm mevsimler yazıldı ");
+            //        break;
+            //}
+            //Console.ReadLine();
+
+            /* for döngüsü */
+
+            //int i ;
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.ReadLine();
+
+            // 1'den 100'e kadar olan,5 e tam bölünüp 7 ye tam bölünemeyen sayıları ekrana yazdıran kod.
+
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    if (i % 5 == 0 && i % 7 != 0)
+            //        Console.WriteLine(i);
+            //}
+            //Console.ReadLine();
+
+            /* 7 satır 4 sutün (*) olan kodu for döngüsü ile yazınız.*/
+            // for(int  i = 0;i < 7;i++)
+            //{
+            //    for ( int j = 0; j <4;  j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.Read();
+
+            /* yıldız karakteri ile  dik üçgen oluştur.*/
+
+            //for(int i  = 0; i < 7; i++)
+            //{
+            //    for(int  j = 0; j < i; j++) {
+
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.Read();
+
+            /*Döngüler ve atlama deyimleri(for-while-do while- foreach)  */
+
+            /* bu kod kullanıcıdan değer istemekte ve girilen değer "q" değilse ekrana yazdırmaktadır.Girilen değer "q" ise programı sonlandırmaktadır.*/
+
+            //char ch;
+            //for (ch = Convert.ToChar(Console.ReadLine()); ch != 'q'; ch = Convert.ToChar(Console.ReadLine())) ;
+            //Console.WriteLine(ch);
+
+            /*for ile döngüleri*/
+            //int k = 0;
+            // for (; k < 10; ++k)
+            // {
+            //     Console.WriteLine(k);
+            // }
+            // Console.Read();
+
+            // int k = 0;
+            // for(; k < 10;)
+            // {
+            //     Console.WriteLine(k);
+            //     ++k;
+            // }
+            // Console.Read();
+
+            /* sonsuz dongu */
+            //int k = 0;
+            //for (; ; )
+            //{
+            //    Console.WriteLine(k);
+            //    ++k ;
+            //}
+            //Console.Read();
+
+            /* While döngüsü */
+            //int n = 0;
+            //int toplam = 0;
+            //while (n <= 100)
+            //{
+            //    toplam += n;
+            //    n+= 2;
+            //}
+            //Console.WriteLine(toplam);
+            //Console.ReadLine();
+            /* iki tam sayı girilmesi isteyiniz.Bu iki tam sayı arasındaki sayıların ortalamasını ekrana yazdıran kodu yazdırınız. */
+
+            //Console.Write("Birinci sayıyı giriniz: ");
+            //int sayi1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("İkinci sayıyı giriniz: ");
+            //int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+            //int toplam = 0;
+            //int sayac = 0;
+
+            //for (int i = sayi1; i <= sayi2; i++)
+            //{
+            //    toplam += i;
+            //    sayac++;
+            //}
+
+            //double ortalama = (double)toplam / sayac;
+
+            //Console.WriteLine("Girilen sayılar arasındaki sayıların ortalaması: " + ortalama);
+            //Console.Read();
+
+            /* kullanıcıdan 20 tam sayı alınacaktır. Girilen sayılardan kaç tanesi 100'den buyuk ekrana yazdırın*/
+            //int sayac = 0;
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    Console.WriteLine("sayi girin");
+            //    int sayi = Convert.ToInt32(Console.ReadLine());
+            //    if (sayi > 100)
+            //    {
+            //        sayac++;
+            //    }
+            //}
+            //Console.WriteLine("girilen sayılardan " + sayac + " tanesi 100'den büyüktür");
+            //Console.ReadLine();
+             
         }
     }
 }
