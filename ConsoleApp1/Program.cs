@@ -596,7 +596,37 @@ namespace ConsoleApp1
             //}
             //Console.WriteLine("girilen sayılardan " + sayac + " tanesi 100'den büyüktür");
             //Console.ReadLine();
+
+         
+            Random rnd = new Random();
+            int[] sayi = new int[10];
+            int a = 0; 
+            for (int i = 0; i < sayi.Length; i++)
+            {
+
+                sayi[i] = rnd.Next(100);
+                Console.WriteLine(sayi[i]);
+
              
+            }
+                Console.WriteLine("\n\n"); 
+            foreach (var i in sayi)
+            {
+                if(i % 2 == 0)
+                {
+                    sayi[a] = 2;
+                }
+                else
+                {
+                    sayi[a] = 1; 
+                }
+                a++;
+            }
+            foreach (var i in sayi)
+            {
+                Console.WriteLine(i);
+            }
+          Console.ReadLine();
         }
     }
 }
