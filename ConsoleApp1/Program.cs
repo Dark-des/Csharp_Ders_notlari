@@ -597,36 +597,47 @@ namespace ConsoleApp1
             //Console.WriteLine("girilen sayılardan " + sayac + " tanesi 100'den büyüktür");
             //Console.ReadLine();
 
-         
-            Random rnd = new Random();
-            int[] sayi = new int[10];
-            int a = 0; 
-            for (int i = 0; i < sayi.Length; i++)
-            {
+         //tam sayi degerleri alan 10 elemanli bir dizi tanimla.dizinin icine Random metodunu kullanarak 0 ile 100 arasinda random degerler ata .Bu degerleri ekrana yazdir
+            //sonrasinda dizinin icerisinde olan cif  sayilarin bulundugu indekse 2 ,tek sayilarin bulundugu indekse 1 degerini ata.Dizinin son halini
+            //tekrar ekrana yansit
+            //sonrasında,dizinin içerisinde olan çift sayıların bulundugu ındekse 2 , tek sayıların bulundugu ındekse 1 degerını ata dızının son halını tekrar ekrana yansıt.
+            
+            //ornek kullanım 
+            //asagıdakı kod,sayı verısının ıcerısıne 0-100 arasında random bır deger ataması yapar 100 degerını asla atamaz yanı sınır dahıl degıldır 
 
-                sayi[i] = rnd.Next(100);
-                Console.WriteLine(sayi[i]);
+             //Random rnd =new Random();
+            //int sayi = rnd.Next(100);
+
+         
+         //   Random rnd = new Random();
+           // int[] sayi = new int[10];
+            //int a = 0; 
+            //for (int i = 0; i < sayi.Length; i++)
+            //{
+
+                //sayi[i] = rnd.Next(100);
+                //Console.WriteLine(sayi[i]);
 
              
-            }
-                Console.WriteLine("\n\n"); 
-            foreach (var i in sayi)
-            {
-                if(i % 2 == 0)
-                {
-                    sayi[a] = 2;
-                }
-                else
-                {
-                    sayi[a] = 1; 
-                }
-                a++;
-            }
-            foreach (var i in sayi)
-            {
-                Console.WriteLine(i);
-            }
-          Console.ReadLine();
+            //}
+              //  Console.WriteLine("\n\n"); 
+            //foreach (var i in sayi)
+            //{
+              //  if(i % 2 == 0)
+               //7 {
+                 //7   sayi[a] = 2;
+               // }
+                //else
+               // {
+                //    sayi[a] = 1; 
+               // }
+             //   a++;
+           // }
+            //foreach (var i in sayi)
+            //{
+              //  Console.WriteLine(i);
+            //}
+          //Console.ReadLine();
         }
     }
 }
