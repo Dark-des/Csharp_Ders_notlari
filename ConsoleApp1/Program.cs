@@ -638,6 +638,99 @@ namespace ConsoleApp1
               //  Console.WriteLine(i);
             //}
           //Console.ReadLine();
+          
+            /*Örnekler */
+            /*kelimeyi ters çevirme */
+            //string str = "Merhaba dünya";
+            //string kelime = new string(str.Reverse().ToArray());
+            //char[] chars = kelime.ToCharArray();
+            //Console.WriteLine(chars);
+            //Console.ReadLine();
+
+
+            //Random rnd = new Random();
+            //Console.WriteLine("sayı girin:  ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int[] dizi = new int[n - 1];
+            //dizi[0] = rnd.Next(1, n + 1);
+
+            //for (int i = 0; i < dizi.Length; i++)
+            //{
+
+            //    int a = rnd.Next(1, n + 1);
+            //    int index = Array.IndexOf(dizi, a);
+            //    if (index != -1)
+            //    {
+            //        i--;
+            //    }
+
+            //    else
+            //    {
+            //        dizi[i] = a;
+            //    }
+            //}
+            //int ol_ger_top = 0;
+            //for (int j = 1 ; j < n+1; j++)
+            //{
+            //    ol_ger_top += j ;                
+            //}
+            //int dizi_top = 0;
+            //for (int k = 0; k < dizi.Length; k++)
+            //{
+            //    dizi_top += dizi[k];
+            //    Console.WriteLine(dizi[k]);
+            //}
+            //int fark = ol_ger_top - dizi_top;
+            //Console.WriteLine(fark);
+            //Console.ReadLine();
+
+
+            //int[] arr = { 23, 25, 13, 37, 83, 11 };       
+            //int min = arr[0];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] < min)
+            //        min = arr[i];      
+            //}
+            //Console.WriteLine(min);
+            //Console.ReadLine();
+
+
+            //int[ ]arr2 = { 23, 25, 13, 37, 83,11 };
+            //int sum = 0;
+            //int ort = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    sum + = arr2[i]; 
+            //}
+            //ort = sum / arr2.Lenght;
+            //Console.WriteLine(ort);
+            //Console.ReadLine();
+
+            //int a= 5;
+            //int b = 1;
+            //int c = 7;
+            //int d = (((a + b--) * a++) + 5 / c++) - --c / 2;
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+            //Console.WriteLine(c);
+            //Console.WriteLine(d);
+            //Console.ReadLine();
+
+           // int[] dizi = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            // int[] dizi2 = new int[5];
+           //  int sayi = dizi[0];
+            //for (int i = 0; i < dizi2.Length; i++)
+             //{
+              //  dizi2[i] = i + 1;
+                //Console.WriteLine(dizi2[i]);
+            // }
+            // Console.ReadKey();
+            /*  DİZİ  METHODU ... */
+
+
+
+         
         }
     }
 }
