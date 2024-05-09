@@ -727,8 +727,108 @@ namespace ConsoleApp1
             // }
             // Console.ReadKey();
             /*  DİZİ  METHODU ... */
+   
+             // string dizi metodları 
+
+ /* split(); giriş dizesini bir veya daha fazla sınırlayıcıya göre bölerek bir alt dize dizisi oluşturur.*/
+
+ /* join();Her öğe veya üye arasında belirtilen ayırıcıyı kullanarak, belirtilen bir dizinin veya bir koleksiyonun üyelerini birleştirir.*/
+
+ /* ToCharArray(); karakterleri bir Unicode karakter dizisine kopyalar.   */
 
 
+
+ /* ÖRNEK */
+
+ //string kelime = "merhaba arkadaşlar";
+
+ //string[] dizi[] = kelime.Split(' ');
+
+ // dizi[] {"merhaba ", "arkadaşlar" , "nasılsınız "};
+
+ //string[] dizi2 = { "arkadaşım", "ders", "dinle" };
+
+ //string kelime 2 = string.Join(",", dizi);
+
+ // kelime 2 = " arkadaşım dersi dinle"
+
+
+
+ /* split &&  join metodu */
+ //string kelime = "bu kelime bir dizidir ";
+ //string[] dizi = kelime.Split(' ');
+ //string dizi2 = string.Join(",", dizi);
+ //foreach (var i in dizi)
+ //{
+ //    Console.WriteLine(i);
+ //}
+ //Console.WriteLine(dizi2, " \n");
+ //Console.ReadLine();
+
+
+ /*join metodu */
+ // string[] dizi1 = { "merhaba", "bu", "bir", "join", "dizisidir" };
+ // string kelime1 = string.Join(",", dizi1);
+ // foreach (var i in kelime1)
+ // {
+ //     Console.Write(i);
+ // }
+ // Console.WriteLine(dizi1);
+ // Console.ReadLine();
+
+ /* ToCharArray(); methodu */
+
+ //string veri = "bıdı bıdı ";
+ //char[] veri_dizi = veri.ToCharArray();
+ //foreach (var i in veri_dizi)
+ //{
+ //    Console.WriteLine(i);
+ //}
+
+ //Console.ReadLine();
+
+ /*Array.reverse(); */
+
+
+ //string veri = "dünya merhaba ";
+ //char[] veri_dizi = veri.ToCharArray();
+ //Array.Reverse(veri_dizi);
+ //foreach (var i in veri_dizi)
+ //{
+ //    Console.WriteLine(i);
+ //}
+ //Console.ReadLine();
+
+ /* kullanıcıdan veri al , aldığın veriyi b harfine göre böl 
+    Aldığın veriyi 'b' harfine göre böl,diziye dönüştür
+    Dizininin içinde 'a' harfini 'e ' yap 
+    diziyi düzden ters yap.
+    terse dönen diziyi string veriye dönüştür.              
+  */
+ //Console.WriteLine("kelime girin:   ");
+ //string veri = Console.ReadLine();
+ //string[] strings = veri.Split('b');
+ //char[] karakter = string.Join(" ", strings).ToCharArray();
+ //for (int i = 0; i < karakter.Length; i++)
+ //{
+ //    if (karakter[i] == 'a')
+ //        karakter[i] = 'e';
+ //}
+ //foreach ( char c in karakter)
+ //{
+ //    Console.WriteLine(c);
+ //}
+ //Array.Reverse(karakter);
+ //Console.WriteLine();
+ //foreach(char c in karakter)
+ //{
+ //    Console.WriteLine(c);
+ //}
+ //string yeni_metin = string.Join(" ", karakter);
+ //Console.WriteLine();
+ //Console.WriteLine(yeni_metin);
+ //Console.ReadLine();
+          
 
          
         }
