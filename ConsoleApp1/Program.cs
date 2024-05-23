@@ -829,6 +829,83 @@ namespace ConsoleApp1
  //Console.WriteLine(yeni_metin);
  //Console.ReadLine();
           
+/*Array.sort() metodu */
+
+// dizileri kurallı bir sıraya sokar. 
+
+// int[] numbers = {3,2,1,4,7,5,6,8,9};
+// Array.Sort(numbers);
+// foreach(int i in numbers)
+// {
+//     Console.WriteLine(i);
+// }
+//Console.ReadKey();
+
+/* Array.Clear() Metodu  */
+
+// Dizinin 1. indeksinden başlayarak 3 elemanı sıfırlar.
+
+//int[] number = { 1,2,4,5,6,7,8,3,9 };
+//Array.Clear(number,1 , 3);
+//foreach (int i in number)
+//{
+//    Console.WriteLine(i);
+//}
+//Console.ReadLine();
+
+/* Array.Resize() Metodu   */
+// bir dizinin boyutunu yeniden belirler.
+
+//int[] sayi = { 1, 2, 3 ,4,5};
+//Array.Resize(ref sayi, 10);
+//sayi[5] = 10;
+//sayi[9] = 20;
+//foreach (int i in sayi)
+//{
+//    Console.WriteLine(i);
+
+//}
+//Console.ReadLine();
+
+/*Array.Copy*/
+// Bir dizinin elemanlarını başka bir diziye kopyalar.
+
+//int[] kaynak_kod = { 1, 2, 3, 4, 5, 6};
+//int[] hedef = new int[6];
+//Array.Copy(kaynak_kod, hedef, kaynak_kod.Length);
+//Console.WriteLine("hedef dizi :" );
+//foreach (int i in hedef)
+//{
+//    Console.WriteLine(i);
+
+//}
+//Console.ReadLine();
+
+/*Array.İndexof*/
+
+// Belirli bir değerin dizideki ilk indeksini döner.
+
+//int[] sayi = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+//int index = Array.IndexOf(sayi, 3);
+//Console.WriteLine("3 değeri dizinin " + index + ". indeksinde buluyor");
+//Console.Read();
+/* Array.Exits */
+
+// Belirtilen bir koşulu sağlayan en az bir eleman olup olmadığını kontrol eder.
+
+//int[] sayi = { 1, 2, 3, 6 , 9 , 5 };
+//bool exit = Array.Exists(sayi, eleman => eleman > 100);
+//Console.WriteLine(exit);
+//Console.ReadLine();
+
+/* Array.Find()  */
+
+//Belirtilen koşulu sağlayan ilk elemanı Yazdırır.
+
+//int[] sayi = { 1, 2, 3,4,5,6,7,8,9 };
+//int found = Array.Find(sayi , eleman => eleman > 4);
+//Console.WriteLine(found);
+//Console.ReadLine();
 
          
         }
