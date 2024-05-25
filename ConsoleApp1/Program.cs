@@ -34,29 +34,6 @@ namespace ConsoleApp1
     }
 }
 
-
-//namespace ConsoleApp1
-//{
-//  internal class Program
- // {
- //   static void Main(string[]args)
-//    {
-    //  object x;
-     // x=10;
-     // Console.WriteLine(x.GetType());
-   //   x="B";
-   //   Console.WriteLine(x.GetType());
-    //  x=8.78d;
-    //  Console.WriteLine(x.GetType());
-     // x=false ;
-   //   Console.WriteLine(x.GetType());
-     // x=5.489M;
-    //  Console.WriteLine(x.GetType());
-   //   x="a";
-     // Console.WriteLine(x.GetType());
+     //1.bilinçsiz tür dönüşümleri 
       
-    // Console.Readline();
-//    }
- // }
-// }
-              // bilinçsiz tür dönüşümü 
+     
